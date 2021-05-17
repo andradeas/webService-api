@@ -1,0 +1,39 @@
+.user-form {
+  max-width: 700px;
+  margin: 20px auto 10px;
+  padding: 0 20px;
+  list-style: none;
+}
+
+.user-form h1{
+  max-width: 700px;
+  padding: 0 20px;
+  margin-top: 10%;
+  color: #da552f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-form strong{
+  display: flex;
+  padding-left: 15%;
+  margin-left: 10%;
+}
+
+.user-form input{
+  display: flex;
+  padding-left: 15%;
+  margin-left: 25%;
+}
+
+.actions {
+  display: flex;
+  padding-top: 10px;
+  margin-left: 35%;
+}
+
+button {
+  margin: 0px 20px;
+  width: auto;
+}

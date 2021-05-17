@@ -1,0 +1,56 @@
+#user-container h1 {
+  margin-top: 5%;
+  color: #da552f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-list {
+  max-width: 700px;
+  margin: 20px auto 10px;
+  padding: 0 20px;
+  list-style: none;
+}
+
+.user-list li {
+  background: #986767;
+  border: 1px solid rgb(112, 108, 108);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.user-list li p {
+  font-size: 16px;
+  color: #999;
+  margin-top: 5px;
+  line-height: 24px;
+}
+
+.actions {
+  display: flex;
+  padding-top: 10px;
+  margin-left: 35%;
+}
+
+.button {
+  margin: 0px 20px;
+  width: auto;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid rgb(78, 76, 76);
+  background-color: rgb(252, 247, 247);
+  color: #da552f;
+}
+
+.button:hover {
+  background-color: #da552f;
+  color: rgb(252, 247, 247);
+}
+
+.addNew {
+  display: flex;
+  padding-top: 10px;
+  margin-left: 35%;
+}
